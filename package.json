@@ -1,0 +1,27 @@
+{
+  "name": "inventory-manager",
+  "version": "0.0.1",
+  "description": "Real-time inventory manager, with Google Calendar support.",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon bin/www"
+  },
+  "keywords": [
+    "inventory",
+    "calendar"
+  ],
+  "author": "Dallas Hall <dallas.hall@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg": "^6.2.4",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
