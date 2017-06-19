@@ -7,6 +7,9 @@ module.exports = (sequelize, DataTypes) => {
     },
     description: {
       type: DataTypes.STRING
+    },
+    locationId: {
+      type: DataTypes.INTEGER
     }
   }, {
       classMethods: {

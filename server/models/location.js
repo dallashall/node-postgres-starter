@@ -1,8 +1,10 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Location = sequelize.define('Location', {
-    name: DataTypes.STRING,
-    allowNull: false,
+    name: {
+      type:  DataTypes.STRING,
+      allowNull: false,
+    },
   }, {
     classMethods: {
       associate: function(models) {
